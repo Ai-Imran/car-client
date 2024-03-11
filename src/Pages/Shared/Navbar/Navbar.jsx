@@ -35,7 +35,7 @@ const Navbar = (props) => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content font-bold mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             {navLink}
           </ul>
@@ -45,7 +45,7 @@ const Navbar = (props) => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navLink}</ul>
+        <ul className="menu menu-horizontal font-bold px-1">{navLink}</ul>
       </div>
       <div className="navbar-end">
       <button className="btn btn-outline btn-secondary">Appointment</button>
